@@ -17,7 +17,7 @@ while count <= 100:
 else:
     print("cycle is over")
 
-# multi cycle
+# multi-cycle
 break_flag = False
 for i in range(10000):
     print(i)
@@ -35,6 +35,20 @@ for i in range(10000):
     if break_flag:
         break_flag = False
         break
+
+count = 0
+
+while not break_flag:
+    print("grandpa")
+
+    while not break_flag:
+        print("father")
+
+        while not break_flag:
+            count += 1
+            print("self")
+            if count > 10:
+                break_flag = True
 
 
 
