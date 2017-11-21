@@ -22,6 +22,10 @@ while count <= 3:
         if continue_flag == "y":
             count = 0
             continue_flag = ""
+            random_bit = random.random()
+            print(random_bit)
+            age = int(random_bit * 100)
+            print(age)
             continue
         elif continue_flag == "n":
             break
@@ -33,6 +37,10 @@ while count <= 3:
         if continue_flag == "y":
             count = 0
             continue_flag = ""
+            random_bit = random.random()
+            print(random_bit)
+            age = int(random_bit * 100)
+            print(age)
             continue
         elif continue_flag == "n":
             break
