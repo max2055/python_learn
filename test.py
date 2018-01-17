@@ -1,8 +1,9 @@
 import getpass
-print ('Hello,%s'%'world')
-print ('%2d-%02d'%(3,1))
-print ('%.2f'%3.1415926)
-print ('growth rate:%d%%' %7)
+
+print('Hello,%s'%'world')
+print('%2d-%02d'%(3,1))
+print('%.2f'%3.1415926)
+print('growth rate:%d%%' %7)
 s1=72
 s2=85
 r=(s2-s1)/s1*100
@@ -29,3 +30,10 @@ numbers2=list(range(2,22,2))
 print(numbers2)
 squares=[value**2 for value in range(1,10,3)]
 print(squares)
+
+for county in menu[prov]:
+    print(county)
+    for zone in menu[prov][county]:
+        print(zone)
+        for company in menu[prov][county][zone]:
+            print(company)
