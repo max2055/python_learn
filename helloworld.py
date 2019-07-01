@@ -1,2 +1,2 @@
-print("hello world")
 print(len('hello'))
+print("hello world")
