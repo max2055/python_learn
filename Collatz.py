@@ -5,10 +5,17 @@ def collatz(number):
         return 3 * number + 1
 
 
-number = int(input('Please input an integer: '))
-
 while True:
-    number = collatz(number)
-    print(number)
-    if number == 1:
-        break
+    try:
+        number = input('Please input an integer（q for exit）: ')
+        if number == 'q':
+            break
+        else:
+            number = int(number)
+        while True:
+            number = collatz(number)
+            print(number)
+            if number == 1:
+                break
+    except ValueError:
+        print('Invalid number.')
