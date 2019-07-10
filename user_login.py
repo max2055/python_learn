@@ -7,5 +7,3 @@ if username == "Alex" and password == "123":
     
 else:
     print("Wrong username or password!")
-    
-
