@@ -17,5 +17,8 @@ while True:
             print(number)
             if number == 1:
                 break
+
+    # except Exception as e:
+    #     print(e)
     except ValueError:
         print('Invalid number.')
