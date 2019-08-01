@@ -17,9 +17,9 @@ ipFile = open(resultFile, 'w')
 
 # 获取文件夹内的文件列表
 for folderName, subfolders, filenames in os.walk(workDir):
-    print(folderName)
-    print(subfolders)
-    print(filenames)
+    # print(folderName)
+    # print(subfolders)
+    # print(filenames)
     # 依次读取文件内容，根据正则表达式进行匹配
     for filename in filenames:
         lnsrFile = open(folderName + '\\' + filename)
