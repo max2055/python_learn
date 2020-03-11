@@ -1,7 +1,8 @@
-import os, re
+import os
+import re
 
-workDir = 'D:\\Users\\wucl\\Desktop\\TNS\\lsnrlog'
-resultFile = 'D:\\Users\\wucl\\Desktop\\TNS\\ip.txt'
+workDir = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnrlog-10.17.18.28-2019'
+resultFile = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnr-10.17.18.28-2019.txt'
 ipRegex = re.compile(
     r'''(
     \(

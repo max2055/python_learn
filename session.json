@@ -1,0 +1,1240 @@
+{
+    "connections": [
+        {
+            "name": "10.17.12.109tztest",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tztest",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.109:1521:tztest",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.109",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.109tztest"
+            }
+        },
+        {
+            "name": "10.17.12.53tpam",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpam",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.53:1521:tpam",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.53",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.53tpam"
+            }
+        },
+        {
+            "name": "10.17.18.16tzappove",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tzappove",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.16:1521:tzappove",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "uDjphfIG28/dqgQ7tPzNs5dUW6HOtfy34a+spcgwFP4=",
+                "hostname": "10.17.18.16",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.16tzappove",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "iaTIQls3Gh6Ncd2ib0YQIDkeZ0+ZZDoROc5Qx11EZVw="
+            }
+        },
+        {
+            "name": "10.17.18.29jsz",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.29:1521:jsz",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.29",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.29jsz"
+            }
+        },
+        {
+            "name": "10.17.18.21sinitek",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "sinitek",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.21:1521:sinitek",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.21",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.21sinitek"
+            }
+        },
+        {
+            "name": "10.17.3.196jyhqdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jyhqdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.3.196:1521:jyhqdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.3.196",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.3.196jyhqdb"
+            }
+        },
+        {
+            "name": "10.17.18.17lltzdb",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.17:1521:lltzdb",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "QCOOUr4YdyToePJw8c5icsFKrdOZmpX4qn8iwGG5qEA=",
+                "hostname": "10.17.18.17",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.17lltzdb",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "jaLZjxM/L5ZSXicSXmZNqtp3zG+UzAjh6KSkM9CZoGc="
+            }
+        },
+        {
+            "name": "10.17.12.101hsta",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "hsta",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.101:1521:hsta",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.101",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.101hsta"
+            }
+        },
+        {
+            "name": "10.17.18.25tzappove",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tzappove",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.25:1521:tzappove",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.25",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.25tzappove"
+            }
+        },
+        {
+            "name": "10.17.12.31TPADC_DEV",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "TPADC_DEV",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.31:1521:TPADC_DEV",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.31",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.31TPADC_DEV"
+            }
+        },
+        {
+            "name": "10.17.18.28jsz",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.28:1521:jsz",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.28",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "KERBEROS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.28jsz"
+            }
+        },
+        {
+            "name": "10.17.11.35",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpadc",
+                "customUrl": "jdbc:oracle:thin:@10.17.11.35:1521:tpadc",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.11.35",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "user": "tpa_omp",
+                "KERBEROS_AUTHENTICATION": "false",
+                "ConnName": "10.17.11.35"
+            }
+        },
+        {
+            "name": "10.17.12.64lltzdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.64:1521:lltzdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.64",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.64lltzdb"
+            }
+        },
+        {
+            "name": "10.17.20.13tzappove",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tzappove",
+                "customUrl": "jdbc:oracle:thin:@10.17.20.13:1521:tzappove",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.20.13",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.20.13tzappove"
+            }
+        },
+        {
+            "name": "10.17.12.46xtta",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "xtta",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.46:1521:xtta",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.46",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.46xtta"
+            }
+        },
+        {
+            "name": "10.17.129.31tpam",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpam",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.129.31:1521:tpam",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "NV0bTUzee0wQhT3vcmI9esuJyKyxCz4tINmUR/QQTOQ=",
+                "hostname": "10.17.129.31",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.129.31tpam",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "qp7hGY+MxE8Z7eJXlq/UTXfBtdUT0RzmN6CWK1Tig4Q="
+            }
+        },
+        {
+            "name": "10.17.18.20xtta",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "xtta",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.20:1521:xtta",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.20",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.20xtta"
+            }
+        },
+        {
+            "name": "10.17.12.19crds",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "crds",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.19:1521:crds",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.19",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.19crds"
+            }
+        },
+        {
+            "name": "10.17.12.31TPADC",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "TPADC",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.31:1521:TPADC",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.31",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.31TPADC"
+            }
+        },
+        {
+            "name": "10.17.12.18tpam",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpam",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.18:1521:tpam",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.18",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.18tpam"
+            }
+        },
+        {
+            "name": "10.17.12.109cxappove",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "cxappove",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.109:1521:cxappove",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.109",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.109cxappove"
+            }
+        },
+        {
+            "name": "10.17.7.64crds",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "crds",
+                "customUrl": "jdbc:oracle:thin:@10.17.7.64:1521:crds",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.7.64",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.7.64crds"
+            }
+        },
+        {
+            "name": "10.17.12.74jsz",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.74:1521:jsz",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.74",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.74jsz"
+            }
+        },
+        {
+            "name": "10.17.12.249lltzdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.249:1521:lltzdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.249",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.249lltzdb"
+            }
+        },
+        {
+            "name": "10.17.12.131TPADC",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "TPADC",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.131:1521:TPADC",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.131",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.131TPADC"
+            }
+        },
+        {
+            "name": "10.17.12.71tpam",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpam",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.71:1521:tpam",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.71",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.71tpam"
+            }
+        },
+        {
+            "name": "10.17.18.22zabbix",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "zabbix",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.44:1521:zabbix",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.44",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.22zabbix"
+            }
+        },
+        {
+            "name": "10.17.18.23JSZTEST",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "JSZTEST",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.23:1521:JSZTEST",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.23",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.23JSZTEST"
+            }
+        },
+        {
+            "name": "10.17.12.65lltzdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.65:1521:lltzdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.65",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.65lltzdb"
+            }
+        },
+        {
+            "name": "10.17.12.25tpasms",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpasms",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.25:1521:tpasms",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.25",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.25tpasms"
+            }
+        },
+        {
+            "name": "10.17.18.24TPAWJFL",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "TPAWJFL",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.24:1521:TPAWJFL",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.24",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.24TPAWJFL"
+            }
+        },
+        {
+            "name": "10.17.12.123crmapp",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "crmapp",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.123:1521:crmapp",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.123",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.123crmapp"
+            }
+        },
+        {
+            "name": "10.17.18.l6tzappove",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tzappove",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.l6:1521:tzappove",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "SsV1jH/BF4WzwzsLRJ+L/wJpr7ZzKsElVbeWXymY03c=",
+                "hostname": "10.17.18.l6",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.l6tzappove",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "ryhXrPC+nNeFZ8GKuo4vi30q/BoYeaJwQVCXqQeCqpE="
+            }
+        },
+        {
+            "name": "10.17.11.15zabbix",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "false",
+                "OracleConnectionType": "TNS",
+                "PROXY_TYPE": "USER NAME",
+                "RaptorConnectionType": "Oracle",
+                "customUrl": "10.17.18.44zabbix",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "driver": "oracle.jdbc.OracleDriver",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "IS_PROXY": "false",
+                "user": "maintain_user",
+                "PROXY_USER_NAME": "",
+                "KERBEROS_AUTHENTICATION": "false"
+            }
+        },
+        {
+            "name": "10.17.12.109tzappove",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tzappove",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.109:1521:tzappove",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.109",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.109tzappove"
+            }
+        },
+        {
+            "name": "10.17.18.44zabbix",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "zabbix",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.44:1521:zabbix",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.44",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.44zabbix"
+            }
+        },
+        {
+            "name": "10.17.12.37xtta",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "xtta",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.37:1521:xtta",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.37",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.37xtta"
+            }
+        },
+        {
+            "name": "10.17.73.72tpapo",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpapo",
+                "customUrl": "jdbc:oracle:thin:@10.17.73.72:1521:tpapo",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.73.72",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.73.72tpapo"
+            }
+        },
+        {
+            "name": "10.17.75.10",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.75.10:1521:lltzdb",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "D8jjDbWZhfkKn3qmu+Zjc95DYcytb7iz/p2wwGFmTvw=",
+                "hostname": "10.17.75.10",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.75.10",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "Dr+/2sA8ti0gLIHLrk8UjuB8lnnA8mkHhJ1l28IJicc="
+            }
+        },
+        {
+            "name": "10.17.12.28oprisk",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "oprisk",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.28:1521:oprisk",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.28",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.28oprisk"
+            }
+        },
+        {
+            "name": "10.17.3.87finchina",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "finchina",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.3.87:1521:finchina",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "gzEB44SQdZKIwBILvXuUuHQreb81grEspsXjEVjpjho=",
+                "hostname": "10.17.3.87",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.3.87finchina",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "finchina",
+                "ExportKeyChecksum": "kVDbV1ZlFNl11OgUQF96gwQRB2YP7nWDAQx74dZb2V4="
+            }
+        },
+        {
+            "name": "10.17.18.41tpasms",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpasms",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.41:1521:tpasms",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.41",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.41tpasms"
+            }
+        },
+        {
+            "name": "10.17.12.113FTSstg",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "FTSstg",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.113:1521:FTSstg",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.113",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.113FTSstg"
+            }
+        },
+        {
+            "name": "10.17.18.22test",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "test",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.22:1521:test",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.22",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.22test"
+            }
+        },
+        {
+            "name": "10.17.12.127crds",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "crds",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.127:1521:crds",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.127",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.127crds"
+            }
+        },
+        {
+            "name": "10.17.18.31jsz_2",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz_2",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.31:1521:jsz_2",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.31",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "KERBEROS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.31jsz_2"
+            }
+        },
+        {
+            "name": "10.17.11.10zqyj",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "TNS",
+                "PROXY_TYPE": "USER NAME",
+                "RaptorConnectionType": "Oracle",
+                "ExportPasswordMode": "Key",
+                "customUrl": "10.17.11.10zqyj",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "fYyc8F1M64fdiSc/b12fprCV9Rl67BF93qnHNEoLDzQ=",
+                "driver": "oracle.jdbc.OracleDriver",
+                "subtype": "oraJDBC",
+                "IS_PROXY": "false",
+                "OS_AUTHENTICATION": "false",
+                "KERBEROS_AUTHENTICATION": "false",
+                "PROXY_USER_NAME": "",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "9LUBBy9bsxshH0VDHb2eGpjr/oHp+13ynjp9onPfuoM="
+            }
+        },
+        {
+            "name": "10.17.18.30jsz",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "serviceName": "xtta",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@//10.17.18.30:1521/xtta",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "8dWdYg6csAEKBg5JzkYrRBF6yufPyyem2ORwfiTX/Ow=",
+                "hostname": "10.17.18.30",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.30jsz",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "kJJV7Ac1IIw6LmS0EJF/6823Y62cfSIHW7UUkzGp/sw="
+            }
+        },
+        {
+            "name": "10.17.18.46",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "MSIRM",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.46:1521:MSIRM",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "7GUoX9QTGp0eLbnN5v3ZhAhHDU3ZsvA5tJ+WiQswWBI=",
+                "hostname": "10.17.18.46",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.46",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "lfnSMRZ8mrwHXtZsBATXR6W/Swtfv68Vf75ioWj1jIs="
+            }
+        },
+        {
+            "name": "10.17.18.18lltzdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.18:1521:lltzdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.18",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.18lltzdb"
+            }
+        },
+        {
+            "name": "10.17.12.17xtta",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "xtta",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.17:1521:xtta",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "7rDxrabDlr3el5qezLnJ/D/evm+7PEaSC8B/hqwC3go=",
+                "hostname": "10.17.12.17",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.12.17xtta",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "l7vNvPX2FyNJbzkH4fD+HNWCSgpX4NKOsB53FgcmLFE="
+            }
+        },
+        {
+            "name": "10.17.12.119jsz_2",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz_2",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.119:1521:jsz_2",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.119",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.119jsz_2"
+            }
+        },
+        {
+            "name": "10.17.12.114TPAWJFL",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "TPAWJFL",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.114:1521:TPAWJFL",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "DAicJ4kZeY/wk3p0uJa/p0Z3uDoOQUkX/x7Y4zvwCCE=",
+                "hostname": "10.17.12.114",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.12.114TPAWJFL",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "ExportKeyChecksum": "lyK4XlYQXZZKP54G7tmor0OB/x6VeGMMctU+KRsqMeY="
+            }
+        },
+        {
+            "name": "10.17.3.197BSXE",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "BSXE",
+                "customUrl": "jdbc:oracle:thin:@10.17.3.197:1521:BSXE",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.3.197",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.3.197BSXE"
+            }
+        },
+        {
+            "name": "10.17.12.62lltzdb",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "lltzdb",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.62:1521:lltzdb",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.62",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.62lltzdb"
+            }
+        },
+        {
+            "name": "10.17.12.47trade",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "trade",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.47:1521:trade",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.47",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.47trade"
+            }
+        },
+        {
+            "name": "10.17.12.48zdbg",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "zdbg",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.48:1521:zdbg",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.48",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.48zdbg"
+            }
+        },
+        {
+            "name": "10.17.16.28jsz",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.16.28:1521:jsz",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.16.28",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.16.28jsz"
+            }
+        },
+        {
+            "name": "10.17.18.19xtta",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "xtta",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.19:1521:xtta",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.19",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "user": "maintain_user",
+                "KERBEROS_AUTHENTICATION": "false",
+                "ConnName": "10.17.18.19xtta"
+            }
+        },
+        {
+            "name": "10.17.18.23jsz",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.18.23:1521:jsz",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.18.23",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.18.23jsz"
+            }
+        },
+        {
+            "name": "10.17.129.51tpam",
+            "type": "jdbc",
+            "info": {
+                "role": "",
+                "SavePassword": "true",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "tpam",
+                "ExportPasswordMode": "Key",
+                "customUrl": "jdbc:oracle:thin:@10.17.129.51:1521:tpam",
+                "oraDriverType": "thin",
+                "NoPasswordConnection": "TRUE",
+                "password": "d63cYD2xfMERmHcIgQ6CdnkxZomO7mzSHZo8uTiZzEA=",
+                "hostname": "10.17.129.51",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "OS_AUTHENTICATION": "false",
+                "ConnName": "10.17.129.51tpam",
+                "KERBEROS_AUTHENTICATION": "false",
+                "user": "trade",
+                "ExportKeyChecksum": "pSRu5JSTgCwydC4UOv0kNVHU9AKF9FnfEUKIjRmqX3c="
+            }
+        },
+        {
+            "name": "10.17.12.249jsz",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "jsz",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.249:1521:jsz",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.249",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.249jsz"
+            }
+        },
+        {
+            "name": "10.17.12.137retrade",
+            "type": "jdbc",
+            "info": {
+                "SavePassword": "false",
+                "OracleConnectionType": "BASIC",
+                "RaptorConnectionType": "Oracle",
+                "sid": "retrade",
+                "customUrl": "jdbc:oracle:thin:@10.17.12.137:1521:retrade",
+                "oraDriverType": "oci8",
+                "NoPasswordConnection": "TRUE",
+                "hostname": "10.17.12.137",
+                "driver": "oracle.jdbc.OracleDriver",
+                "port": "1521",
+                "subtype": "oraJDBC",
+                "user": "10.17.12.137retrade"
+            }
+        }
+    ]
+}
