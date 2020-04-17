@@ -1,8 +1,8 @@
 import os
 import re
 
-workDir = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnrlog-10.17.18.28-2019'
-resultFile = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnr-10.17.18.28-2019.txt'
+workDir = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnrlog-10.17.12.31'
+resultFile = 'D:\\Users\\wucl\\Desktop\\logs\\TNS\\lsnr-10.17.12.31-2020.txt'
 ipRegex = re.compile(
     r'''(
     \(
@@ -34,3 +34,5 @@ for folderName, subfolders, filenames in os.walk(workDir):
                 ipFile.write(str(targetIP[0][0]))
                 ipFile.write('\n')
 ipFile.close()
+
+
